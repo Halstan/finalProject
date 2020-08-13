@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorRikazzo">#42A5F5</color>
+    <color name="colorRikazzoDark">#2196F3</color>
+
+    <color name="colorEditar">#0D67D5</color>
+    <color name="colorAgregar">#088A0A</color>
+    <color name="colorEliminar">#E10606</color>
+</resources>

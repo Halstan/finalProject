@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Home">
+        <menu
+            android:id="@+id/group_home"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/menu_home" />
+        </menu>
+    </item>
+    <item android:title="Media">
+        <menu android:id="@+id/group_media"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/menu_gallery" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="@string/menu_slideshow" />
+        </menu>
+    </item>
+    <item android:title="Home Second">
+        <menu android:id="@+id/group_homesecond"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home_second"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/home_second" />
+        </menu>
+    </item>
+</menu>

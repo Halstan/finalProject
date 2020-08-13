@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnMenuOver"
+        android:icon="@drawable/ic_expand_more_black_24dp"
+        android:title="Expandir"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/btnHome"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home">
+            </item>
+            <item
+                android:id="@+id/btnGalery"
+                android:icon="@drawable/ic_photo_library_black_24dp"
+                android:title="Galeria">
+            </item>
+            <item
+                android:id="@+id/btnCursos"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="Cursos">
+            </item>
+            <item
+                android:id="@+id/btnHomeSecond"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/action_settings">
+            </item>
+
+        </menu>
+
+    </item>
+</menu>
+
